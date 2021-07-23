@@ -1,0 +1,12 @@
+{
+  "locator": "*//text()[contains(.,'Register')]//ancestor::div[2]",
+  "registerCTA": "a[href*='register']",
+  "languageSelectionDropdown": "div.ant-select-selector",
+  "languageSelect": {
+    "english": "div.ant-select-dropdown div.ant-select-item[title*='English']",
+    "japanese": "div.ant-select-dropdown div.ant-select-item[title*='Japanese']",
+    "vietnamese": "div.ant-select-dropdown div.ant-select-item[title*='Vietnamese']"
+  },
+  "termsCTA": "*//text()[contains(.,'Terms of use')]",
+  "policyCTA": "*//text()[contains(.,'Privacy policy')]"
+}

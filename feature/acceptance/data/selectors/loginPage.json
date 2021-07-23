@@ -1,0 +1,35 @@
+{
+  "url": "https://dev-servicex.credify.ninja/login",
+  "adminUrl":"https://dev-servicex.credify.ninja/admin-login",
+  "credifyLogo": {
+    "logo": "img[alt='Credify']",
+    "img": "img[src='/credify-logo-icon.png']",
+    "text": "//span[contains(text(),'Organization')]"
+  },
+  "loginForm": {
+    "form": "//text()[contains(.,'Login')]//ancestor::div[1]",
+    "formTitle": "//h3[text()[contains(.,'Login')]]",
+    "titleExpected": "Login to your organization account",
+    "emailField": "input#email",
+    "pwdField": "input#password",
+    "rememberCheckBox": {
+      "locator": "label.ant-checkbox-wrapper",
+      "text": "//span[text()[contains(.,'Remember')]]",
+      "textExpected": "Remember me"
+    },
+    "loginButton": "button[type='submit']",
+    "loginButtonText": "button[type='submit'] span"
+  },
+  "footer": {
+    "locator": "//text()[contains(.,'Register')]//ancestor::div[2]",
+    "registerCTA": "a[href*='register']",
+    "languageSelectionDropdown": "div.ant-select-selector",
+    "languageSelect": {
+      "english": "div.ant-select-dropdown div.ant-select-item[title*='English']",
+      "japanese": "div.ant-select-dropdown div.ant-select-item[title*='Japanese']",
+      "vietnamese": "div.ant-select-dropdown div.ant-select-item[title*='Vietnamese']"
+    },
+    "termsCTA": "//a[text()[contains(.,'Terms of use')]]",
+    "policyCTA": "//a[text()[contains(.,'Privacy policy')]]"
+  }
+}

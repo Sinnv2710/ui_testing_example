@@ -1,0 +1,9 @@
+node_modules
+tests/reports/selenium-server-logs
+tests/reports/html/*.html
+tests/reports/json/tmp/*.json
+.DS_Store
+/.vscode/
+/report/
+/feature/acceptance/report/
+/feature/acceptance/report_collections

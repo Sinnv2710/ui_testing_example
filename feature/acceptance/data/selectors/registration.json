@@ -1,0 +1,10 @@
+{
+  "registration_form": "div.digcmx form",
+  "emailField" : "input#email",
+  "name": "input#name",
+  "des": "textarea#description",
+  "appUrl": "input#appUrl",
+  "registrationDate": "input#registrationDate",
+  "pwd": "input[placeholder*='Your pass']",
+  "confirmPwd": "input[placeholder*='Confirm pass']"
+}

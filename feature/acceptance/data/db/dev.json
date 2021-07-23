@@ -1,0 +1,9 @@
+{
+  "db": {
+    "user": "postgres",
+    "host": "postgres-app-dev-wsxlig.cnprpshkig7k.ap-southeast-1.rds.amazonaws.com",
+    "password": "s4MfZVbNpnLMftGknXYsiHcj",
+    "port": 5432,
+    "database": "entity"
+  }
+}

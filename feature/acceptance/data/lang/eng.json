@@ -1,0 +1,20 @@
+{
+  "loginPage": {
+    "credifyLogoText": "organization",
+    "loginFormTitle": "Login to your organization account",
+    "rememberCheckBoxTitle": "Remember me",
+    "registerCTATittle": "Register new account",
+    "submitButton": "LOGIN AS ORGANIZATION",
+    "termCTA": "Terms of use",
+    "policyCTA": "Privacy policy"
+  },
+  "registrationPage": {
+    "RegisterTitle": "REGISTER NEW ACCOUNT",
+    "TitleInputingEmail": "Input a valid email address",
+    "DescriptionInputingEmail" : "Please make sure the provided email address is valid because we will use this email address for communications if any.",
+    "termPolicyCTA": "Accept the terms of use and privacy policy",
+    "complete": "Complete",
+    "completeMessage": "Your request to register your account has been submitted. Please sit tight! We are going to review and get back to you shortly.",
+    "goToLoginPageBtn": "GO TO"
+  }
+}
